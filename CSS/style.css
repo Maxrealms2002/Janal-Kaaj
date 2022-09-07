@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Fondo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background: linear-gradient(rgba(0, 0, 0, ) rgba(0, 0, 0, 0.7));*/
+  background-color: #5cbdf2;
+  opacity: 0.8;
+  width: 380px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+input{
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+.submit{
+    background-color: #c9f2e7;
+}
+
+.control input {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #222;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+  transition: .3s ease all;
+}
+
+.control input [type="submit"] {
+  color: #fff;
+  font-size: 1.2em;
+  opacity: 0.7;
+  cursor: pointer;
+
+}
+
+.control input [type="submit"]:hover {
+  opacity: 1;
+  color: #5cbdf2;
+  background: linear-gradient(27deg, #34495e);
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.link a:hover {
+  opacity: 1;
+}
+
+.crearcuenta {
+    text-decoration: none;
+    color: rgb(59, 19, 19);
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.input-IniciarS{ 
+  background-color: #97EFF7; 
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
+/* Poner estilos dentro del estilo de la clase formulario-input */
+.input-Usuario::placeholder{
+background-image: url(../Img/usuario\ \(2\).png);
+background-size: 15px 15px;
+background-repeat: no-repeat;
+background-position: 1rem center;
+text-align: center;
+
+}   
+.input-contraseña::placeholder{
+background-image: url(../Img/bloquear.png);
+background-size: 15px 15px;
+background-repeat: no-repeat;
+background-position: 1rem center;
+text-align: center;
+}
+/* Termina */
+ .bodyTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+} 
+
+/* Estilo pestaña Admin_escuestado */
+
+.color-titulo{
+  color:rgb(0, 0, 0);
+}
+
+.color-fondo{
+  background-color: #E8EEEB; 
+  
+}
+
+#contra::placeholder{
+  background-image: url(../Img/bloquear.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-align: center;
+}
+#tel::placeholder{
+  background-image: url(../Img/Icono-Telefono.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-align: center;
+}
+#correo::placeholder{
+  background-image: url(../Img/gmail.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-align: center;
+}
+#boton-enviar:hover{ 
+background-color:  #97EFF7 !important;
+color: #000 !important;
+border-color: #97EFF7 !important;
+} 
+.form-control{
+  background-color:#E8EEEB  ;
+  opacity: 0.8;
+}
+/* termina diseño de encuestador*/
+
+/* Diseño de pestaña de escuestado */
+
+#contra-encuestado::placeholder{
+  background-image: url(../Img/bloquear.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-align: center;
+}
+#tel-encuestado::placeholder{
+  background-image: url(../Img/Icono-Telefono.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-align: center;
+}
+#Email-encuestado::placeholder{
+  background-image: url(../Img/gmail.png);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  text-align: center;
+}
+
+
